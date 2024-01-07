@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    margin: 0;
+}
+
+.banner {
+    flex: 1;
+    max-width: 33%;
+}
+
+.banner img {
+    object-fit: contain;
+    max-height: 100vh;
+}
+
+.page-content {
+    flex: 2;
+    background-color: lightgrey;
+}
