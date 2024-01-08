@@ -10,10 +10,23 @@ body {
 
 .banner {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     flex: 1;
     max-width: 33%;
-    font-family: 'Norse Bold', 'Courier New', Courier, monospace;
     position: relative;
+}
+
+.photo-credits {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.photo-credits a {
+    color: antiquewhite;
 }
 
 .banner .banner-background {
@@ -25,6 +38,7 @@ body {
 }
 
 .logo-container {
+    font-family: 'Norse Bold', 'Courier New', Courier, monospace;
     position: absolute;
     padding: 8px;
     top: 8rem;
